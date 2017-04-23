@@ -1,0 +1,68 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="component_event" id="1" x="-11" y="-160">
+    <mutation component_type="Button" instance_name="OPCUA" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">OPCUA</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="2" inline="false">
+        <value name="SCREEN">
+          <block type="text" id="3">
+            <field name="TEXT">Screen2</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="4" x="-8" y="-76">
+    <mutation component_type="Button" instance_name="Sensor" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Sensor</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="5" inline="false">
+        <value name="SCREEN">
+          <block type="text" id="6">
+            <field name="TEXT">Screen3</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="7" x="-8" y="15">
+    <mutation component_type="Button" instance_name="Dashboard" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Dashboard</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="8" inline="false">
+        <value name="SCREEN">
+          <block type="text" id="9">
+            <field name="TEXT">Screen4</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="10" x="-5" y="107">
+    <mutation component_type="Button" instance_name="Weatherstation" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Weatherstation</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="11" inline="false">
+        <value name="SCREEN">
+          <block type="text" id="12">
+            <field name="TEXT">Screen5</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="13" x="-5" y="220">
+    <mutation component_type="Button" instance_name="Settings" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Settings</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="14" inline="false">
+        <value name="SCREEN">
+          <block type="text" id="15">
+            <field name="TEXT">Webservice_IP</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <yacodeblocks ya-version="159" language-version="20"></yacodeblocks>
+</xml>
